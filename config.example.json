@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "vault_path": "~/Documents/Obsidian Vault",
+  "journal_subdirectory": "Dev Notes",
+  "language": "zh-CN",
+  "layout": "date_first",
+  "file_mode": "daily",
+  "month_subdirectories": true,
+  "year_subdirectories": false,
+  "backup_subdirectory": "bak/Dev Notes",
+  "metadata": {
+    "tag_root": "dev-journal",
+    "journal_segment": "daily",
+    "project_segment": "project",
+    "source_segment": "source"
+  },
+  "references": {
+    "enabled": true,
+    "automatic": true,
+    "subdirectory": "References",
+    "tag_segment": "reference",
+    "max_body_chars": 20000
+  },
+  "project_naming": {
+    "strategy": "git_remote_then_root",
+    "overrides": {}
+  },
+  "thresholds": {
+    "min_seconds_between_entries": 7200,
+    "dirty_turns": 10,
+    "changed_files": 15,
+    "diff_lines": 600,
+    "tool_calls": 50,
+    "max_checkpoint_age_minutes": 240,
+    "commit": true,
+    "pre_compact": true,
+    "session_end": true,
+    "prompt_retry_seconds": 300
+  },
+  "privacy": {
+    "redact_secrets": true,
+    "redact_home_paths": true,
+    "max_captured_prompt_chars": 600
+  },
+  "fallback": {
+    "enabled": true,
+    "timeout_seconds": 180
+  }
+}

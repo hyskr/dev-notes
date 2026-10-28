@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dev Notes｜开发手记"
+  short_description: "Record development progress and reusable knowledge"
+  default_prompt: "Use $record-dev-notes to record this development session and its reusable conclusions in Obsidian."

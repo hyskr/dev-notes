@@ -1,0 +1,32 @@
+{
+  "name": "ai-development-journal",
+  "version": "1.1.0",
+  "description": "Dev Notes records development progress and reusable knowledge in Obsidian.",
+  "author": {
+    "name": "Dev Notes contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "journal",
+    "obsidian",
+    "codex",
+    "claude-code",
+    "hooks"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Dev Notes｜开发手记",
+    "shortDescription": "Record development progress and reusable knowledge.",
+    "longDescription": "Append concise daily development notes and reusable topic References to Obsidian. Session-scoped incremental capture, a two-hour automatic interval, and one-call saving keep recording lightweight.",
+    "developerName": "Dev Notes contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Write",
+      "Automation"
+    ],
+    "defaultPrompt": [
+      "Record this development session and its reusable conclusions.",
+      "Show Dev Notes status for this project."
+    ]
+  }
+}
